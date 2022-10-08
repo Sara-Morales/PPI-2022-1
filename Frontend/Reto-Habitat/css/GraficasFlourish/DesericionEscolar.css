@@ -1,0 +1,16 @@
+.botonFlechasSiguiente {
+  border: none;
+  background-color: transparent;
+  height: 20px;
+  margin-top: -697px;
+  float: right;
+  margin-right: 450px;
+}
+.title {
+  margin-top: 130px;
+}
+h1 {
+  text-align: center;
+  background: rgb(255, 230, 0);
+  color: rgb(44, 43, 43);
+}

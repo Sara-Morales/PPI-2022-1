@@ -1,0 +1,74 @@
+
+.flourish-embed {
+  /*display: inline-block;*/
+ position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: none;
+  margin-top: 40px;
+}
+
+.padre {
+  /* IMPORTANTE */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hijo {
+  background-color:  #95b8f6;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 7px 7px 15px #3d3d3d; 
+  /* IMPORTANTE */
+  display: inline-block;
+  
+}
+.hijoTitle {
+  background: white;
+  border-radius: 50px;
+  border: none;
+  width: 80%;
+  height: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.hijoTitle:hover{
+  background: rgb(61, 161, 255);
+  transition: all .3s;
+  color: white;
+}
+.hijo a{
+  color: black;
+  text-decoration: none;
+}
+.hijo a:hover{
+  color: rgb(255, 255, 255);
+}
+.hijoTitle:hover:hover{
+  color: white;
+}
+.flourishTitle{
+  margin-top: 110px;
+  background: rgb(255, 255, 255);
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container{
+  background: white;
+  width: 80%;
+ 
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Bienvenida</title>
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Reto-Habitat/css/Bienvenida/principal.css" />
+    <link rel="stylesheet" href="../Reto-Habitat/css/Bienvenida/blog.css" />
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+</head>
+
+<body>
+    <!--Header - menu-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+               <img  class="logoCompleto"src="../Reto-Habitat/images/logoCompleto-modified.png" alt="">
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li class="menu-selected">
+                            <a href="./FiltroBienvenida.html" class="text-menu-selected">
+                                <i class="fas fa-file-alt"></i>Home</a>
+                        </li>
+                        <li>
+                            <a href="../Pages/Nosotros.html"> <i class="fas fa-home"></i> Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="./graficasFlourish.html"> <i class="fab fa-youtube"> </i>Datos</a>
+                            <img src="https://flourish.studio/images/flourish-icon-112x112.png" width="10px" alt="">
+                        </li>
+                        <li>
+                            <a href="./Contactanos.html"> <i class="fas fa-headset"></i> Contactanos</a>
+                        </li>
+                        <li>
+                            <a href="" onClick="salir()"> <i class="fas fa-headset"></i> Salir</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+        <div class="blog-container-cover">
+            <div class="container-info-cover">
+                <h1>¡Encuentra multiples oportunidades de estudio!</h1>
+                <p>
+                    Aprovecha este espacio para escuchar musica mientras navegas por la página.
+                </p>
+                <!--Spotify-->
+                
+                <iframe src="https://open.spotify.com/embed/playlist/0jxX0970EmWSO2uqier1NG?theme=0"
+                 width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                
+        </div>
+
+        <!--Filtros-->
+        <div class="container-post">
+            <input type="radio" id="TODOS" name="categories" value="TODOS" checked />
+            <input type="radio" id="Colegio" name="categories" value="Colegio" />
+            <input type="radio" id="Becas" name="categories" value="Becas" />
+            <input type="radio" id="Universidad" name="categories" value="Universidad" />
+            <input type="radio" id="Cursos" name="categories" value="Cursos" />
+
+            <div class="container-category">
+                <label for="TODOS">TODOS</label>
+                <label for="Colegio">Colegio</label>
+                <label for="Becas">Becas</label>
+                <label for="Universidad">Universidad</label>
+                <label for="Cursos">Cursos</label>
+                
+            </div>
+            
+            <div class="posts">
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="https://alternativas.pro/wp-content/uploads/2019/05/alternativas-a-udemy.jpg"
+                            alt="" />
+                    </div>
+                    <h2>Udemy</h2>
+                    <span>Plataforma de aprendizaje</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://www.udemy.com"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="https://fondos.sapiencia.gov.co/convocatorias/frontend_consulta/resources/img/logo_sapiencia_horizontal_2021.png"
+                            alt="" />
+                    </div>
+                    <h2>Sapiencia</h2>
+                    <span>Alcandia de Medellín</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://sapiencia.gov.co"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Universidad.jpg" alt="" />
+                    </div>
+                    <h2>Universidad de Antioquia</h2>
+                    <span>Universidad Pública</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad</li>
+                    </ul>
+                    <a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/!ut/p/z1/hY7LDoIwEEW_xQVbOrSg4K5BYkDCIzERuzFgasEAJYDw-zbqxsTH7O7ccyaDGMoQa_OpEvlYyTavVT6y5SlKLc_ALoSxTzxInchKyNbH5oqgwz-AqRq-DAXlswdiOy42qAkh7AwLaOol0T52k02AX8CPGwFiopbF813aFsQWiPX8wnve67derctx7Ia1BhrM86wLKUXN9bNsNPiklHIYUfZOoq7J4GrVU0gXizthmbDl/dz/d5/L2dBISEvZ0FBIS9nQSEh/"><button>Ver más</button></a>
+                </div>
+
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/icetex.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Icetex</h2>
+                    <span>Gov.co</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://portal.icetex.gov.co/Portal/Home/HomeEstudiante/becas/becas-para-estudios-en-el-exterior/becas-vigentes"><button>Ver más</button></a>
+                </div>
+
+                
+                <div class="post" data-category="Colegio">
+                    <div class="ctn-img">
+                        <img
+                            src="../Reto-Habitat/images/colegioPublico.jpg" />
+                    </div>
+
+                    <h2>Colegios Publicos</h2>
+                    <span> Ubicados en Medellín</span>
+                    <ul class="ctn-tag">
+                        <li>Colegio</li>
+                    </ul>
+                    <a href="https://www.elcolombiano.com/colombia/educacion/mejores-colegios-publicos-en-medellin-DD3959948"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/skillshare.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Skillsharelogo</h2>
+                    <span>Aprendizaje en línea</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://www.skillshare.com/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Nacional.png" alt="" />
+                    </div>
+                    <h2>Universidad Nacional</h2>
+                    <span>Universidad Publica</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad </li>
+                    </ul>
+                    <a href="https://unal.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Colfuturo.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Colfuturo</h2>
+                    <span>Universidades en el exterior</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://www.colfuturo.org/programas/credito-beca/convenios"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/UniversidadMedellin.JPG" alt="" />
+                    </div>
+                    <h2>Universidad de Medellín</h2>
+                    <span>Universidad Privada</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad</li>
+                    </ul>
+                    <a href="https://udemedellin.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/edx.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Edx</h2>
+                    <span>Explora nuevos intereses</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://www.edx.org/es/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/pontificiaBolivariana.JPG" alt="" />
+                    </div>
+                    <h2>Universidad Pontificia Bolivariana</h2>
+                    <span>Universidad Privada</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad </li>
+                    </ul>
+                    <a href="https://www.upb.edu.co/es/home"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="https://www.ucn.edu.co/institucion/sala-prensa/noticias/PublishingImages/2020/06/programa-becas-1.png"
+                            alt="" />
+                    </div>
+                    <h2>Becas Ser</h2>
+                    <span>Gobierno de Colombia</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://www.mineducacion.gov.co/1759/w3-propertyvalue-67215.html?_noredirect=1">
+                        <button>Ver más</button></a>
+                </div>
+               
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/EAFIT.JPG" alt="" />
+                    </div>
+                    <h2>Universidad EAFIT</h2>
+                    <span>Universidad Privada</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad </li>
+                    </ul>
+                    <a href="https://www.eafit.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Colegio">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/colegioPrivado.jpg" alt="">
+                    </div>
+                    <h2>Colegios Privados</h2>
+                    <span>Ubicados en Medellín</span>
+                    <ul class="ctn-tag">
+                        <li>Colegio</li>
+                    </ul>
+                    <a href="https://eservicioseducativos.com/blog/estos-son-los-21-mejores-colegios-de-medellin/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Sena.PNG" alt="" />
+                    </div>
+                    <h2>Sena</h2>
+                    <span>Universidad Pública</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad </li>
+                    </ul>
+                    <a href="https://www.sena.edu.co/es-co/Paginas/default.aspx"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/platzi.jpg" alt="">
+                    </div>
+                    <h2>Platzi</h2>
+                    <span>Educación en linea</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://platzi.com"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/LuisAmigo.JPG" alt="" />
+                    </div>
+                    <h2>Universidad Católica LuisAmigo</h2>
+                    <span>Universidad Privada</span>
+                    <ul class="ctn-tag">
+                        <li>Universidad </li>
+                    </ul>
+                    <a href="https://www.funlam.edu.co/"><button>Ver más</button></a>
+                </div>
+
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/tecnologia.png"
+                            alt="" />
+                    </div>
+                    <h2>Becas Tecnologia</h2>
+                    <span>Alcandia de Medellín</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://convocatorias.sapiencia.gov.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/TecnologicoAntioquia.JPG" alt="" />
+                    </div>
+                    <h2>Tecnológico de Antioquia</h2>
+                    <span>Universidad</span>
+                    <ul class="ctn-tag">
+                        <li>Tecnológico </li>
+                    </ul>
+                    <a href="https://www.tdea.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Khan acdemy.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Khan Academy</h2>
+                    <span>Educación gratuita</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://es.khanacademy.org/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/itm.JPG" alt="" />
+                    </div>
+                    <h2>institución universitaria ITM</h2>
+                    <span>Universidad</span>
+                    <ul class="ctn-tag">
+                        <li>Tecnológico </li>
+                    </ul>
+                    <a href="https://www.tdea.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/generacionE.PNG"
+                            alt="" />
+                    </div>
+                    <h2>GeneraciónE</h2>
+                    <span>Gobierno Nacional</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://especiales.colombiaaprende.edu.co/generacione/programa.html"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/granColombiano.JPG" alt="" />
+                    </div>
+                    <h2>Politécnico granColombiano</h2>
+                    <span>Universidad pública</span>
+                    <ul class="ctn-tag">
+                        <li>Politécnico </li>
+                    </ul>
+                    <a href="https://www.poli.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/tutellus.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Tutellus</h2>
+                    <span>Aprender para ser mejor</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://www.tutellus.com/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Universidad">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/JIC.JPG" alt="" />
+                    </div>
+                    <h2>Politécnico Jaime Isaza Cadavid</h2>
+                    <span>Universidad pública</span>
+                    <ul class="ctn-tag">
+                        <li>Politécnico </li>
+                    </ul>
+                    <a href="https://www.politecnicojic.edu.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/medellinjoven.JPG"
+                            alt="" />
+                    </div>
+                    <h2>Medellín jóven</h2>
+                    <span></span>
+                    <ul class="ctn-tag">
+                        <li>Oportunidades</li>
+                    </ul>
+                    <a href="https://www.medellinjoven.com/oportunidades"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/SofiaPlush.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Ofertas educativas</h2>
+                    <span>Sena</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Sena.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Cursos cortos</h2>
+                    <span>Sena</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://ejecuciondelaformacion.sena.edu.co/cursos-cortos"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/colciencia.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Colciencias</h2>
+                    <span>Ministerio de Educación Nacional</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://minciencias.gov.co/convocatorias"><button>Ver más</button></a>
+                </div>
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/GoogleActivate.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Activate</h2>
+                    <span>Mejora tus habilidades</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://grow.google/intl/es/programmes"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/jovenesEnAccion.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Jóvenes en acción</h2>
+                    <span>Prosperidad Social</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://prosperidadsocial.gov.co/sgpp/transferencias/jovenes-en-accion/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Mirandax.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Miríadax</h2>
+                    <span>Formación de calidad</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://miriadax.net/web/general-navigation/cursos"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/RegionalesBecas.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Becas Regiones</h2>
+                    <span>Gobernación de Antioquia</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="http://www.seduca.gov.co/sala-de-prensa/archivo-de-prensa/item/5918-becas-regiones-abre-nueva-convocatoria-de-becas-para-estudiar-en-2021-2"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/floo.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Flooo</h2>
+                    <span>Aprende y enseña</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://www.floqq.com/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/minTIC.PNG"
+                            alt="" />
+                    </div>
+                    <h2>MinTIC</h2>
+                    <span>Ministerio de Tecnologías</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://mintic.gov.co/portal/inicio/Ministerio/Acerca-del-MinTIC/"><button>Ver más</button></a>
+                </div>
+
+                
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/coursera.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Coursera</h2>
+                    <span>Aprende sin limites</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://es.coursera.org/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/Funeber.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Funiber</h2>
+                    <span>Fundación IberoAmericana</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://www.funiber.org.co/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/aprendeGratis.PNG"
+                            alt="" />
+                    </div>
+                    <h2>AprendeGratis</h2>
+                    <span>Aprende por tu cuenta</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://aprendergratis.es/cursos-online/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Becas">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/BancoRepublica.PNG"
+                            alt="" />
+                    </div>
+                    <h2>Banco de la Republica</h2>
+                    <span>Patrocino de U extranjeras</span>
+                    <ul class="ctn-tag">
+                        <li>Becas</li>
+                    </ul>
+                    <a href="https://www.ucaldas.edu.co/portal/tag/becas-banco-de-la-republica/"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/keecoding.png"
+                            alt="" />
+                    </div>
+                    <h2>Keecoding</h2>
+                    <span>cursos online de programción</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://plataforma.keepcoding.io/courses/category/Cursos%20Gratuitos"><button>Ver más</button></a>
+                </div>
+
+                <div class="post" data-category="Cursos">
+                    <div class="ctn-img">
+                        <img src="../Reto-Habitat/images/ColombiaAprende.png"
+                            alt="" />
+                    </div>
+                    <h2>Colombia Aprende</h2>
+                    <span>mineducación</span>
+                    <ul class="ctn-tag">
+                        <li>Cursos</li>
+                    </ul>
+                    <a href="https://www.colombiaaprende.edu.co/"><button>Ver más</button></a>
+                </div>
+            </div>
+           
+        </div>
+        </div>
+
+        <div class="container-footer">
+            <footer>
+                <div class="logo-footer">
+                    <img src="img/logo-magtimus-pro-.png" alt="" />
+                </div>
+
+                <div class="redes-footer">
+                    <a href="https://www.facebook.com/jovenestalento4.0"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                    <a href="https://www.instagram.com/_jovenestalento4.0/?hl=es"><i class="fab fa-instagram icon-redes-footer"></i></a>
+                </div>
+
+                <hr />
+                <h4>© 2021 Jóvenes Talento 4.0 - Todos los Derechos Reservados</h4>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./validate.js"></script>
+    <script src="js/script.js"></script>
+    <script src="../Reto-Habitat/js/modoOscuro.js"></script>
+</body>
+
+</html>
